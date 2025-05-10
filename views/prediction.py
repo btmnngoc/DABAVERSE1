@@ -7,7 +7,6 @@ def render_prediction_tab():
 
     stock = st.selectbox("Chọn mã cổ phiếu", ["FPT", "CMG"], index=0)
 
-
     n_days = st.slider("Chọn số ngày muốn dự báo", min_value=7, max_value=60, value=14)
 
     if st.button("📈 Dự báo"):
